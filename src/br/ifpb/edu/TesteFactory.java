@@ -30,6 +30,7 @@ public class TesteFactory {
 	}
 	
 	private static void main(String args[]) {
+		System.out.println("Iniciando...!");
 		Casa c1 = montarCasa("basico");
 		Casa c2 = montarCasa("conforto");
 		Casa c3 = montarCasa("luxo");
